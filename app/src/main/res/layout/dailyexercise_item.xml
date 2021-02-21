@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="500dp"
+    android:id="@+id/daily_cardview_item"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFEAE7E7"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/daily_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:elevation="20dp"
+            android:fontFamily="@font/emilys_candy"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Day 1"
+            android:textColor="#BF360C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:elevation="50dp"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:background="@drawable/level_btn_bg"
+            android:layout_weight="0.5"
+            android:text="Start" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

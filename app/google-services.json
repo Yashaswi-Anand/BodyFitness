@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857154903323",
+    "project_id": "bodyfitness-8540d",
+    "storage_bucket": "bodyfitness-8540d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857154903323:android:3b666f28a2643678be47be",
+        "android_client_info": {
+          "package_name": "com.yashanand.bodyfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857154903323-o70q8d2vp0ftbb7cgftalpq7uuq20c89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjPmXAFuCSLMdYc2MKAcXcH03pSsZ48b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857154903323-o70q8d2vp0ftbb7cgftalpq7uuq20c89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
