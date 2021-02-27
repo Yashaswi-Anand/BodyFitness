@@ -9,13 +9,13 @@
     <item
         android:id="@+id/chat"
         android:icon="@drawable/ic_baseline_chat_24"
-        android:title="chat" />
+        android:title="Chat" />
 
 
     <item
-        android:id="@+id/setting"
+        android:id="@+id/tutorial"
         android:icon="@drawable/ic_baseline_book"
-        android:title="tutorial" />
+        android:title="Tutorial" />
 
 
 </menu>

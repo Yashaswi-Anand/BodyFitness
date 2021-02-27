@@ -39,7 +39,7 @@ class DashboardActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction().replace(R.id.frameLayout,Chat()).commit()
                     supportActionBar?.hide()
                 }
-                R.id.setting ->{
+                R.id.tutorial ->{
                     supportFragmentManager.beginTransaction().replace(R.id.frameLayout,Tutorial()).commit()
                     supportActionBar?.hide()
                 }
