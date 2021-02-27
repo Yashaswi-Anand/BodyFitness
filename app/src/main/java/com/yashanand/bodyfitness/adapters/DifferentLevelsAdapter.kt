@@ -11,6 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.yashanand.bodyfitness.DashboardActivity
 import com.yashanand.bodyfitness.activities.DailyExercise
 import com.yashanand.bodyfitness.R
 import com.yashanand.bodyfitness.models.LevelModel
@@ -33,7 +34,7 @@ class DifferentLevelsAdapter(var context: Context,val itemList: ArrayList<LevelM
         holder.itemView.findViewById<TextView>(R.id.descriptions).text = items.LevelDescription
         holder.itemView.findViewById<Button>(R.id.btn_level).setOnClickListener{
             Toast.makeText(context,"I am ready to exercise",Toast.LENGTH_SHORT).show()
-            context.startActivity(Intent(context, DailyExercise::class.java))
+            context.startActivity(Intent(context, DashboardActivity::class.java))
 
         }
     }
